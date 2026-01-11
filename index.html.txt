@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Khali Wayne | Entrepreneur</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+    }
+
+    body {
+      background: #ffffff;
+      color: #000000;
+      line-height: 1.6;
+    }
+
+    header {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2rem;
+      color: #444;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #000;
+      display: inline-block;
+    }
+
+    .skills span {
+      display: inline-block;
+      margin: 10px 10px 0 0;
+      padding: 8px 14px;
+      border: 1px solid #000;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      border-top: 1px solid #000;
+      margin-top: 40px;
+    }
+
+    a {
+      color: #000;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div>
+      <h1>Khali Wayne</h1>
+      <p>Entrepreneur</p>
+    </div>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <p>
+      I’m Khali Wayne, an entrepreneur focused on building ideas into impactful
+      ventures. I value creativity, growth, and turning vision into reality.
+    </p>
+  </section>
+
+  <section>
+    <h2>What I Do</h2>
+    <div class="skills">
+      <span>Business Development</span>
+      <span>Brand Building</span>
+      <span>Strategy</span>
+      <span>Creative Thinking</span>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>
+      Let’s connect and build something meaningful.
+    </p>
+    <p>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+      <a href="#">WhatsApp</a>
+    </p>
+  </section>
+
+  <footer>
+    © 2026 Khali Wayne
+  </footer>
+
+</body>
+</html>
